@@ -27,7 +27,7 @@ public class Main {
                 }
                 System.out.println("Умножение: " + (numOne * numTwo));
                 flag = false;
-            }catch (InputMismatchException e){
+            } catch (InputMismatchException e) {
                 System.out.println("Вы ввели неверное значение!");
                 scanner.next();
             }
